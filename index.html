@@ -76,7 +76,7 @@
             li.innerHTML = `<span class="log-ok">[OK] ${currentPhrase}...</span> <span class="log-meta">[NODE_ID: ${nodeId}]</span> <span class="log-ping">[PING: ${latency}ms]</span>`;
 
             logContainer.appendChild(li);
-            while (logContainer.children.length > 50) logContainer.removeChild(logContainer.firstChild);
+            while (logC.ontainer.children.length > 50) logContainer.removeChild(logContainer.firstChild);
             logContainer.scrollTop = logContainer.scrollHeight;
 
             if (Math.random() > 0.6) {
@@ -90,3 +90,4 @@
     </script>
 </body>
 </html>
+ 
